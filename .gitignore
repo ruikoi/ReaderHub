@@ -1,0 +1,32 @@
+.DS_Store
+
+# Local instructions, skills and private requirement discussions
+/AGENTS.md
+/.agents/
+/.codex/
+/.aws/
+**/skills/
+SKILL.md
+/requirement/
+/requirements/
+
+# Build products, dependencies and working data
+/dist/
+/.cache/
+/.local/
+/web/node_modules/
+/web/dist/
+/ReaderHubData/
+
+# Private deployment configuration and credentials
+/deploy/hosts.local.json
+/deploy/*.local.*
+/deploy/private/
+access-token
+*.log
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "hosts": {
+    "home-hub": {
+      "enabled": false,
+      "kind": "computer",
+      "address": null,
+      "user": null,
+      "os": "darwin",
+      "arch": null,
+      "roles": [
+        "hub"
+      ]
+    },
+    "work-mac": {
+      "enabled": false,
+      "kind": "computer",
+      "address": null,
+      "user": null,
+      "os": "darwin",
+      "arch": null,
+      "roles": [
+        "cli"
+      ]
+    },
+    "linux-source-1": {
+      "enabled": false,
+      "kind": "computer",
+      "address": null,
+      "user": null,
+      "os": "linux",
+      "arch": null,
+      "roles": [
+        "cli"
+      ]
+    },
+    "linux-source-2": {
+      "enabled": false,
+      "kind": "computer",
+      "address": null,
+      "user": null,
+      "os": "linux",
+      "arch": null,
+      "roles": [
+        "cli"
+      ]
+    }
+  }
+}
